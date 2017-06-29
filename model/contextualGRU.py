@@ -13,9 +13,7 @@ from loader.lex_helper import LexHelper
 from loader.context_helper import ContextHelper
 from utils.utils import compute_f1_score
 
-np.random.seed(1999) #STS 87.4%
-# np.random.seed(1189)
-# np.random.seed(1234)
+np.random.seed(1999) 
 
 class ContexualGRU(object):
     def __init__(self, config=None, opts=None):

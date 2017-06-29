@@ -13,10 +13,9 @@ from loader.lex_helper import LexHelper
 from loader.context_helper import ContextHelper
 from utils.utils import compute_f1_score
 
-# np.random.seed(2000)
+
 np.random.seed(1999)
-# np.random.seed(1189)
-# np.random.seed(1234)
+
 
 class Attention_ContexualGRU(object):
     def __init__(self, config=None, opts=None):
