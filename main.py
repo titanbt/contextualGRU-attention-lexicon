@@ -1,5 +1,4 @@
 from utils.commandParser import DLNLPOptParser
-from model.bilstm_deepcnn import BILSTM_DeepCNN
 from model.model_attention_tf import Model_Attention_tf
 from model.bilstm import BILSTM
 from model.cnn import CNN
